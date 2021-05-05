@@ -106,6 +106,10 @@ HttpProvider.prototype.send = function (payload, callback) {
             } catch(e) {
                 error = errors.InvalidResponse(request.responseText);
             }
+            
+            if(result.error) {
+                HttpProvider.prototype.errors={error: result.error, request: payload};
+            }
 
             _this.connected = true;
             callback(error, result);
