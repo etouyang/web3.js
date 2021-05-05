@@ -133,6 +133,8 @@ HttpProvider.prototype.disconnect = function () {
     //NO OP
 };
 
+HttpProvider.prototype.errors = null;
+
 /**
  * Returns the desired boolean.
  *
