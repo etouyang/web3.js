@@ -8,7 +8,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "bignumber.js": "git+ssh://github.com/frozeman/bignumber.js-nolookahead.git",
+    "bignumber.js": "git+ssh://git@github.com:frozeman/bignumber.js-nolookahead.git",
     "crypto-js": "^3.1.4",
     "utf8": "^2.1.1",
     "xhr2": "*",
